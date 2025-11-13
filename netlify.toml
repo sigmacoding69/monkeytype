@@ -1,0 +1,8 @@
+[build]
+  command = "pnpm turbo run build --filter @monkeytype/frontend"
+  publish = "frontend/dist"
+
+[build.environment]
+  NODE_VERSION = "20.16.0"
+
+
